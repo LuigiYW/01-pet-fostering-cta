@@ -1,0 +1,87 @@
+/* Set the font and remove default margins and padding for the page */
+body {
+  font-family: Arial, sans-serif; /* Use Arial font family */
+  margin: 0; /* Set margin to zero */
+  padding: 0; /* Set padding to zero */
+}
+
+/* Style the header with the site name */
+header {
+  background-color: white; /* Set background color to white */
+  color: #007B7B; /* Set text color to teal */
+  text-align: center; /* Center the text */
+  padding: 20px; /* Add padding around the header */
+  font-size: 24px; /* Set font size */
+  font-weight: bold; /* Make text bold */
+}
+
+/* Style the CTA banner with a teal background, centered text, and tall height */
+.cta-banner {
+  background: linear-gradient(rgba(0,123,123,0.7), rgba(0,123,123,0.7)), url('img/cta-bg.jpg'); /* Add overlay and background image */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the background */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  color: white; /* Set text color to white */
+  text-align: center; /* Center the text */
+  min-height: 300px; /* Set minimum height */
+  padding: 50px 20px 100px; /* Add padding */
+}
+
+/* Style the main heading to be large and prominent */
+.cta-banner h1 {
+  font-size: 3.5em; /* Set large font size */
+  margin-bottom: 40px; /* Add space below */
+}
+
+/* Style the description paragraph for readability */
+.cta-banner p {
+  font-size: 18px; /* Set font size */
+  margin-bottom: 50px; /* Add space below */
+  max-width: 600px; /* Limit width */
+  margin-left: auto; /* Center horizontally */
+  margin-right: auto; /* Center horizontally */
+}
+
+/* Style the call-to-action button to be bright and eye-catching */
+.cta-button {
+  background-color: #FFD700; /* Set background color to gold */
+  color: white; /* Set text color to white */
+  padding: 15px 30px; /* Add padding */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Set font size */
+  border-radius: 5px; /* Round corners */
+  display: inline-block; /* Display as inline block */
+  position: relative; /* Set position */
+  z-index: 10; /* Set z-index */
+}
+
+/* Style the info section with two columns */
+.info-section {
+  max-width: 1200px; /* Limit maximum width */
+  margin: 0 auto; /* Center the section */
+  padding: 50px 20px; /* Add padding */
+  text-align: left; /* Align text to left */
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center the items */
+  gap: 40px; /* Add space between items */
+}
+
+.info-section img {
+  width: 600px; /* Set image width */
+  max-width: 100%; /* Limit image width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 15px; /* Round image corners */
+  margin-right: 40px; /* Add space to the right */
+}
+
+.info-section h2 {
+  color: #007B7B; /* Set text color to teal */
+  font-size: 24px; /* Set font size */
+  margin-bottom: 20px; /* Add space below */
+}
+
+.info-section p {
+  font-size: 16px; /* Set font size */
+  line-height: 1.5; /* Set line height */
+  margin-bottom: 15px; /* Add space below */
+}
